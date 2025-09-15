@@ -19,7 +19,7 @@ body{font-family:Inter,system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue
 }
 
 .logo-img {
-  height: 32px;
+  height: 100px;
   width: auto;
   display: block;
 }
@@ -67,4 +67,5 @@ input,textarea{width:100%;padding:.6rem;border:1px solid #ddd;border-radius:6px}
   #nav-toggle{display:inline-block}
 }
 #nav-toggle{display:none;background:none;border:1px solid #ddd;padding:.35rem .6rem;border-radius:6px}
+
 
