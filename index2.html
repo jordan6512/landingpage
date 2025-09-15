@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Dein Service | Landing Page</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a class="logo" href="#">DeinService</a>
+      <button id="nav-toggle" aria-label="Navigation öffnen">Menu</button>
+      <nav id="nav" class="nav">
+        <a href="#services">Leistungen</a>
+        <a href="#about">Über</a>
+        <a href="#contact">Kontakt</a>
+        <a class="cta" href="mailto:dein@email.de">Anfrage</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <h1>Webseiten, die Kunden anziehen</h1>
+        <p class="lead">Ich baue dir eine klare Landing Page für mehr Anfragen — schnell, modern und mobil-optimiert.</p>
+        <div class="hero-cta">
+          <a class="btn" href="#contact">Kostenlose Beratung</a>
+          <a class="btn ghost" href="#services">Leistungen ansehen</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="container cards">
+      <article class="card">
+        <h3>Landing Pages</h3>
+        <p>Conversion-orientiertes Design für Angebote & Kampagnen.</p>
+      </article>
+      <article class="card">
+        <h3>Webseiten für KMU</h3>
+        <p>Klare Struktur, einfache Verwaltung mit WordPress.</p>
+      </article>
+      <article class="card">
+        <h3>Support & Updates</h3>
+        <p>Wartung, schnelle Anpassungen, Sicherheits-Checks.</p>
+      </article>
+    </section>
+
+    <section id="about" class="container about">
+      <h2>Kurz zu mir</h2>
+      <p>Ich gestalte praktische Webseiten für Selbstständige und kleine Unternehmen. Du bekommst ein klares Angebot, keine unnötigen Extras.</p>
+    </section>
+
+    <section id="contact" class="container contact">
+      <h2>Kontakt</h2>
+      <form id="contact-form">
+        <label>
+          Name
+          <input id="name" required>
+        </label>
+        <label>
+          E-Mail
+          <input id="email" type="email" required>
+        </label>
+        <label>
+          Nachricht
+          <textarea id="message" rows="4" required></textarea>
+        </label>
+        <button type="submit" class="btn">E-Mail öffnen und Anfrage senden</button>
+      </form>
+      <p class="note">Das Formular öffnet dein E-Mail-Programm (funktioniert ohne Drittanbieter).</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <small>© <span id="year"></span> DeinName — Alle Rechte vorbehalten</small>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
